@@ -31,7 +31,7 @@ function App() {
                   <h2 className="text-white font-medium text-2xl md:text-6xl text-center">
                     <FlipWords
                       className="font-serif"
-                      words={["Bonjour", "Hola", "Ciao", "Aloha"]}
+                      words={["Bonjour", "Hola", "Ciao", "Aloha", "Ola"]}
                     />{" "}
                     I'm Luke,
                   </h2>
@@ -47,7 +47,7 @@ function App() {
       <div className="flex h-screen bg-slate-950 mx-auto">
         
       </div>
-      <BackgroundBeams />
+      
     </>
   );
 }
