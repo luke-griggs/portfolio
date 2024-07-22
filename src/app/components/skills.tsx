@@ -35,7 +35,7 @@ const Skills = () => {
           <div className="flex-1 pt-24">
             <h1 className="text-7xl pb-6 text-cyan-400">Skills</h1>
             <p className="max-w-md text-slate-950">
-              To keep things simple, If it's in this cloud, I've worked with it.
+              To keep things simple, If it&apos;s in this cloud, I&apos;ve worked with it.
             </p>
           </div>
           <div className="flex-1">

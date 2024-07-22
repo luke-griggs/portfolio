@@ -80,7 +80,7 @@ function App() {
                         "Ola",
                       ]}
                     />{" "}
-                    I'm Luke,
+                    I&apos;m Luke,
                   </h2>
                 </div>
                 <div className="text-right pl-8">
