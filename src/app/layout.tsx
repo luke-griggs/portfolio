@@ -26,6 +26,7 @@ export default function RootLayout({
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="stay curious" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css" />
       </Head>
       <body className={inter.className}>
