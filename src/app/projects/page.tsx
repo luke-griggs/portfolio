@@ -5,23 +5,9 @@ import Navbar from '../components/navbar';
 import { HoverEffect } from '../components/ui/card-hover-effect'
 import TypingAnimation from '../components/ui/typing-animation';
 
-export const Page = () => {
+const Page = () => {
 
-  
-
-
-  return (
-    <div className="bg-slate-950">
-        <Navbar />
-        <div className="mt-16 mx-10 h-screen">
-            <TypingAnimation className="font-mono font-light text-4xl p-4 pt-16 text-left text-white" text="See what I've been working on."/>
-            <HoverEffect items={projects}/>
-        </div>
-    </div>
-  )
-}
-
-const projects = [
+  const projects = [
     {
         title: "Birdfeed",
         description:
@@ -61,4 +47,16 @@ const projects = [
       
 ]
 
-export default Page
+  return (
+    <div className="bg-slate-950">
+        <Navbar />
+        <div className="mt-16 mx-10 h-screen">
+            <TypingAnimation className="font-mono font-light text-4xl p-4 pt-16 text-left text-white" text="See what I've been working on."/>
+            <HoverEffect items={projects}/>
+        </div>
+    </div>
+  )
+}
+
+
+export default Page;
