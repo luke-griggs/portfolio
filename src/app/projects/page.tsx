@@ -5,7 +5,7 @@ import Navbar from '../components/navbar';
 import { HoverEffect } from '../components/ui/card-hover-effect'
 import TypingAnimation from '../components/ui/typing-animation';
 
-export const page = () => {
+export const Page = () => {
 
   
 
@@ -61,4 +61,4 @@ const projects = [
       
 ]
 
-export default page
+export default Page
