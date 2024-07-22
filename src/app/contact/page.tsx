@@ -49,12 +49,13 @@ const Page = () => {
                   <div className="my-12 border-t border-black"></div>
                 </div>
               </CardItem>
-              <ul className="flex flex-row space-x-10 relative pl-8 pb-6 z-40">
+              <ul className="flex flex-row space-x-10 relative pl-8 pb-6 z-40 text-black">
               <CardItem
                 as="a"
                 href="https://www.linkedin.com/in/lukegriggs25/"
                 target="_blank"
                 className="hover:text-cyan-300"
+                rel="noopener noreferrer"
 
               >
                 <FaLinkedinIn className="text-3xl" />
@@ -64,6 +65,8 @@ const Page = () => {
                 href="https://github.com/luke-griggs/"
                 target="_blank"
                 className="hover:text-cyan-300"
+                rel="noopener noreferrer"
+
 
               >
                 <FaGithub className="text-3xl" />
@@ -73,6 +76,8 @@ const Page = () => {
                 href="https://www.facebook.com/profile.php?id=100087801921393"
                 target="_blank"
                 className="hover:text-cyan-300"
+                rel="noopener noreferrer"
+
 
               >
                 <FaFacebookSquare className="text-3xl" />
@@ -82,6 +87,8 @@ const Page = () => {
                 href="https://x.com/LukeGriggs6"
                 target="_blank"
                 className="hover:text-cyan-300"
+                rel="noopener noreferrer"
+
 
               >
                 <FaXTwitter className="text-3xl" />

@@ -33,9 +33,9 @@ const Page = () => {
     [
       "blog-3",
       {
-        title: "Chess & Life",
+        title: "Life and Chess",
         content:
-          "In the game of chess, playing too conservatively by only playing the safest moves can be a losing strategy. Eventually, your opponent will gain an advantage and beat you. If you truly want to win a game of chess, it becomes necessary to take risks at some point during the match. You will need to make moves that your opponent doesn't expect, such as sacrificing a piece or not castling even though it seems like the best move. Such moves may not yield immediate benefits, but they contribute to a larger and more complex strategy. I make this point to say that I believe life is quite like the game of chess. If you go through life making only the exact moves that you are expected to by society by conforming to the status quo, You leave yourself no room to gain an advantage from being outside of your comfort zone. To clarify, I'm not saying that you shouldn't play any expected moves. They're actually quite important, because if you strictly play reckless sacrificial moves in chess you will certainly lose. However, I am saying that a good combination of foundational moves combined with unexpected and potentially risky moves could be the key to playing a beautiful game.",
+          "In the game of chess, playing too conservatively by only playing the safest moves can be a losing strategy. Eventually, your opponent will gain an advantage and beat you. If you truly want to win a game of chess, it becomes necessary to take risks at some point during the match. You will need to make moves that your opponent doesn't expect, such as sacrificing a piece or not castling even though it seems like the best move. Such moves may not yield immediate benefits, but they contribute to a larger and more complex strategy. I make this point to say that I believe life is quite like the game of chess. ||| If you go through life making only the exact moves that you are expected to by society by conforming to the status quo, You leave yourself no room to gain an advantage from being outside of your comfort zone. To clarify, I'm not saying that you shouldn't play any expected moves. They're actually quite important, because if you strictly play reckless sacrificial moves in chess you will certainly lose. However, I am saying that a good combination of foundational moves combined with unexpected and potentially risky moves could be the key to playing a beautiful game.",
       },
     ],
     [
@@ -75,7 +75,7 @@ const Page = () => {
       >
         <Navbar />
         <div className="mt-16 h-full flex mx-24 bg-slate-950">
-          <div className="text-white w-5/12 p-8 pt-14 font-mono">
+          <div className="text-white w-5/12 p-8 pt-20 font-mono">
             <div className="">
               <BoxReveal>
                 <h1 className="text-4xl">Welcome to my Blog!</h1>
@@ -107,7 +107,7 @@ const Page = () => {
             </div>
           </div>
 
-          <div className="text-xl text-white w-1/2 p-8 mt-48">
+          <div className="text-xl text-white w-1/2 p-8 mt-52 pt-9">
             <h1 className="font-mono text-2xl pb-1 text-cyan-300">
               {blog?.title}
             </h1>

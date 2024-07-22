@@ -55,7 +55,7 @@ const projects = [
       {
         title: "Password Generator",
         description:
-          "Using python I created a application that generates randomized passwords for users based on their preferences.",
+          "Using python I created an application that generates randomized passwords for users based on their preferences.",
         link: "https://github.com/luke-griggs/PasswordGenerator",
       },
       
