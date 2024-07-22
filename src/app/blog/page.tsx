@@ -47,23 +47,21 @@ const Page = () => {
       },
     ],
     [
-        "blog-5",
-        {
-          title: "Life's a Spaceship",
-          content:"Think of your path to success as a journey to travel as far out and see as much of the universe that you can. In order to do this you’re going to need a spaceship. Everyone’s born in a spaceship that represents their life. Some people are born in a really shitty spaceship that’s slow and needs a lot of repairs(poverty) and others may be born into a glamorous spaceship that’s shiny and has lots of bells and whistles(child of a millionaire). Regardless of what kind of spaceship you’re born into, in order to get as far out and see as much of the universe that you can, you need to do a few things. For starters you need to take care of your ship. This could mean things like exercising everyday or staying away from drugs. It is important that you take care of this ship as it’s the only one you have. Another thing you need to do with your ship is work on it. Improve it by taking time to upgrade the thrusters or adding enhancements to the navigation system. This means taking time to develop new skills, meeting people, or learning things to improve your life’s trajectory. If something goes wrong and you crash land somewhere, it is important that you don’t stay down. Build your spaceship back up, and this time add better features and technology in order to prevent it from happening again. Don’t get distracted by nonsense while on your spaceship because if you do you might forget to make it better or fix repairs. This will hinder you from seeing what’s truly out there in this universe." 
-          ,
-        },
-      ],
-      [
-        "blog-6",
-        {
-          title: "I Really Hate gossip",
-          content: "I think that there are far too many fascinating concepts and ideas in this world for the majority of one’s discourse with others  to consist of talking badly about someone else. We are such complex entities that spending our time constantly engulfed in the lives and characteristics of others is an incredible waste of time. I personally find it difficult to spend my mental energy doing that simply because of how fascinated I am with the world around me. I think the world might be a better place if we could all learn to do this. I think that more progress would be made.One interesting thing about this concept is the fact that believe it or not, gossiping is an evolutionary trait. It developed because it allowed us to know more about the situation of the environment that we lived in, thus giving us more insight and increasing chances of survival. Unfortunately this innate evolutionary trait has spiraled out of control and is now used to waste the time of billions of people every single day. There do exist other reasons why we engage in such behavior with some of it coming down to emotional welfare. The idea present in our minds  is that if we talk about someone else and bring them down, that will somehow make ourselves feel better. Unfortunately this approach doesn’t work and it leads to a constant spiral of never feeling good enough. This gossiping trait has been burned into the very culture of many groups of people and I think it would be beneficial if we moved away from it and allocated our attention and mental computation toward things that deserve it. "
-          ,
-        },
-      ],
-      
-
+      "blog-5",
+      {
+        title: "Life's a Spaceship",
+        content:
+          "Think of your path to success as a journey to travel as far out and see as much of the universe that you can. In order to do this you’re going to need a spaceship. Everyone’s born in a spaceship that represents their life. Some people are born in a really shitty spaceship that’s slow and needs a lot of repairs(poverty) and others may be born into a glamorous spaceship that’s shiny and has lots of bells and whistles(child of a millionaire). Regardless of what kind of spaceship you’re born into, in order to get as far out and see as much of the universe that you can, you need to do a few things. For starters you need to take care of your ship. This could mean things like exercising everyday or staying away from drugs. It is important that you take care of this ship as it’s the only one you have. Another thing you need to do with your ship is work on it. Improve it by taking time to upgrade the thrusters or adding enhancements to the navigation system. This means taking time to develop new skills, meeting people, or learning things to improve your life’s trajectory. If something goes wrong and you crash land somewhere, it is important that you don’t stay down. Build your spaceship back up, and this time add better features and technology in order to prevent it from happening again. Don’t get distracted by nonsense while on your spaceship because if you do you might forget to make it better or fix repairs. This will hinder you from seeing what’s truly out there in this universe.",
+      },
+    ],
+    [
+      "blog-6",
+      {
+        title: "I Really Hate gossip",
+        content:
+          "I think that there are far too many fascinating concepts and ideas in this world for the majority of one’s discourse with others  to consist of talking badly about someone else. We are such complex entities that spending our time constantly engulfed in the lives and characteristics of others is an incredible waste of time. I personally find it difficult to spend my mental energy doing that simply because of how fascinated I am with the world around me. I think the world might be a better place if we could all learn to do this. I think that more progress would be made.One interesting thing about this concept is the fact that believe it or not, gossiping is an evolutionary trait. It developed because it allowed us to know more about the situation of the environment that we lived in, thus giving us more insight and increasing chances of survival. Unfortunately this innate evolutionary trait has spiraled out of control and is now used to waste the time of billions of people every single day. There do exist other reasons why we engage in such behavior with some of it coming down to emotional welfare. The idea present in our minds  is that if we talk about someone else and bring them down, that will somehow make ourselves feel better. Unfortunately this approach doesn’t work and it leads to a constant spiral of never feeling good enough. This gossiping trait has been burned into the very culture of many groups of people and I think it would be beneficial if we moved away from it and allocated our attention and mental computation toward things that deserve it. ",
+      },
+    ],
   ];
 
   return (
@@ -88,10 +86,10 @@ const Page = () => {
             </div>
             <div className="flex-col mt-10">
               {(blogs ?? []).map(([id, { title, content }]) => (
-                <div className="">
+                <div key={id} className="">
+                  {" "}
                   <div className="my-6">
                     <a
-                      key={id}
                       onClick={() => setSelectedBlog({ title, content })}
                       className={
                         blog?.title === title
