@@ -62,6 +62,14 @@ const Page = () => {
           "I think that there are far too many fascinating concepts and ideas in this world for the majority of one’s discourse with others  to consist of talking badly about someone else. We are such complex entities that spending our time constantly engulfed in the lives and characteristics of others is an incredible waste of time. I personally find it difficult to spend my mental energy doing that simply because of how fascinated I am with the world around me. I think the world might be a better place if we could all learn to do this. I think that more progress would be made.One interesting thing about this concept is the fact that believe it or not, gossiping is an evolutionary trait. It developed because it allowed us to know more about the situation of the environment that we lived in, thus giving us more insight and increasing chances of survival. Unfortunately this innate evolutionary trait has spiraled out of control and is now used to waste the time of billions of people every single day. There do exist other reasons why we engage in such behavior with some of it coming down to emotional welfare. The idea present in our minds  is that if we talk about someone else and bring them down, that will somehow make ourselves feel better. Unfortunately this approach doesn’t work and it leads to a constant spiral of never feeling good enough. This gossiping trait has been burned into the very culture of many groups of people and I think it would be beneficial if we moved away from it and allocated our attention and mental computation toward things that deserve it. ",
       },
     ],
+    [
+      "blog-7",
+      {
+        title: "The psychic boxer",
+        content:
+          "I was just lying here in bed and I thought of an extraordinary paradox so I had to put it into words. You know those movies where there’s some evil villain who’s psychic and whenever he fights someone he’s easily able to beat them because he already knows the exact moves they’re going to make? If so keep reading, if not this might be really confusing but you’re welcome to keep reading. Anyways back to the paradox. Let’s simplify things by using a boxer instead of a villain. ||| So now we have a professional boxer who can tell the future. Let’s call this boxer Mike. Say Mike has a fight tomorrow that he really wants to win. Conveniently for him he already knows the exact punches his opponent is going to throw at him. This is where it gets interesting. Because Mike knows what his opponent will do, he decides the night before that he’s going to dodge his opponent's punches. However, there's a twist: the future that Mike would need to think about in order to change it would never actually occur. If that future never happens, how could he have predicted it in order to change it?"},
+    ],
+
   ];
 
   return (

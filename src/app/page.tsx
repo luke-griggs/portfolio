@@ -95,7 +95,7 @@ function App() {
               <div className="flex-1 max-w-2/3 max-w-4xl text-4xl font-mono text-cyan-300">
                 <h1 className="pb-16" data-aos="fade-up">
                   Hi, I&apos;m Luke. Actually I think I might&apos;ve said that
-                  already. But anyway, I&apos;m a sophomore at Washu, passionate
+                  already. But anyway, I&apos;m a student at Washington University, passionate
                   about programming and entrepreneurship.
                 </h1>
 
@@ -118,7 +118,7 @@ function App() {
           <div className="fixed bottom-0 left-0 right-0 pb-5 text-center">
             <div className="animate-bounce inline-block bg-gray-200 rounded-full p-3 shadow-lg">
               <span className="text-slate-950 font-mono text-sm">
-                Scroll down for more
+                scroll down for more
               </span>
             </div>
           </div>

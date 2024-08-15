@@ -32,7 +32,7 @@ const Intrests = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <TbChess className="h-20 w-20 mt-2" />
+                      <TbChess className="h-20 w-20 mt-2 hover:-rotate-12" />
                     </a>
                   </div>
                   <div className="flex-2">

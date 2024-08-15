@@ -27,6 +27,7 @@ const Skills = () => {
     "nextdotjs",
     "stripe",
     "drizzle",
+    "go",
   ];
   return (
     <div className="w-full text-2xl pt-40">
